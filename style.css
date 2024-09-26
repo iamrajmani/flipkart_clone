@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(224, 220, 220);
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    background-color: #fff;
+    max-width: 100%;
+    height: 70px;
+    justify-content: space-evenly;
+}
+nav .logo{
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px 0px 40px;
+    margin-right: 50px;
+}
+.search_bar{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.search_bar .magnifying_glass{
+    height: 50px;
+    background-color: aliceblue;  
+    
+}
+.search_bar input{
+    border: none;
+    width: 100%;
+    background: transparent;
+    margin-top: 5px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.login .login_icon{
+    width: 22px;
+    height: 22px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.login p{
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.login .dropdown{
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.cart{
+    display: flex;
+}
+.cart img{
+    width: 22px;
+    height: 22px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.cart p{
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.seller{
+  display: flex;  
+}
+.seller img{
+    width: 22px;
+    height: 22px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.seller p{
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 25px;
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap;
+}
+.vertical_menu{
+    display: flex;
+    border: grey;
+}
+.vertical_menu img{
+    height: 35px;
+    width: 30px;
+    margin: 20px 50px 0 50px;
+}
+.nav_bottom{
+    background-color: white;
+    width: 97%;
+    height: 130px;
+    margin: 7px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+}
+.nav_bottom .box1{
+    display: block;
+    padding: 10px;
+}
+.nav_bottom .box1 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+.nav_bottom .box1 p{
+    margin-left: 50px;
+    font-weight: 600;
+    color: rgb(62, 60, 60);
+}
+.nav_bottom .box2{
+    display: block;
+    padding: 10px;
+}
+.nav_bottom .box2 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+.nav_bottom .box2 p{
+    margin-left: 50px;
+    font-weight: 600;
+    color: rgb(62, 60, 60);
+}
+.nav_bottom .box3{
+    display: block;
+    padding: 10px;
+}
+.nav_bottom .box3 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+.nav_bottom .box3 p{
+    margin-left: 50px;
+    font-weight: 600;
+    color: rgb(62, 60, 60);
+}
+.nav_bottom .box4{
+    display: block;
+    padding: 10px;
+}
+.nav_bottom .box4 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+.nav_bottom .box4 p{
+    margin-left: 40px;
+    font-weight: 600;
+    color: rgb(62, 60, 60);
+}
+.nav_bottom .box5{
+    display: block;
+    padding: 10px;
+}
+.nav_bottom .box5 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+.nav_bottom .box5 p{
+    margin-left: 50px;
+    font-weight: 600;
+    color: rgb(62, 60, 60);
+}
+.nav_bottom .box6{
+    display: block;
+    padding: 10px;
+}
+.nav_bottom .box6 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+.nav_bottom .box6 p{
+    margin-left: 40px;
+    font-weight: 600;
+    color: rgb(62, 60, 60);
+}
+.nav_bottom .box7{
+    display: block;
+    padding: 10px;
+}
+.nav_bottom .box7 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+.nav_bottom .box7 p{
+    margin-left: 20px;
+    font-weight: 600;
+    color: rgb(62, 60, 60);
+}
+.nav_bottom .box8{
+    display: block;
+    padding: 10px;
+}
+.nav_bottom .box8 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+.nav_bottom .box8 p{
+    margin-left: 10px;
+    font-weight: 600;
+    color: rgb(62, 60, 60);
+}
+.hero_section{
+    margin-left: 20px;
+}
+.section1{
+    background-color: white;
+    width: 75%;
+    height: 350px;
+    margin: 7px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 20px 0 20px;
+    gap: 15px;
+}
+.section1 div #main_text{
+    font-weight: 600;
+    font-size: 20px;
+}
+.section1 .item1
+{
+    border: 2px solid rgb(216, 215, 215); 
+    display: block;
+    margin-top: 50px;
+}
+.section1 .item1 img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.section1 .item1 p #text2{
+    font-weight: 800px;
+}
+.section1 .item2
+{
+    border: 2px solid rgb(216, 215, 215); 
+    display: block;
+    margin-top: 50px;
+}
+.section1 .item2 img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.section1 .item2 p #text2{
+    font-weight: 800px;
+}
+.section1 .item3
+{
+    border: 2px solid rgb(216, 215, 215); 
+    display: block;
+    margin-top: 50px;
+}
+.section1 .item3 img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.section1 .item3 p #text2{
+    font-weight: 800px;
+}
+.section1 .item4
+{
+    border: 2px solid rgb(216, 215, 215); 
+    display: block;
+    margin-top: 50px;
+}
+.section1 .item4 img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.section1 .item4 p #text2{
+    font-weight: 800px;
+}
+footer{
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+}
+footer .about #about{
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: grey;
+}
+footer .about{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+footer .group_companies #group_companies{
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: grey;
+}
+footer .group_companies{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+footer .Help #help{
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: grey;
+}
+footer .Help{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+footer .consumer_policy #consumer_policy{
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: grey;
+}
+footer .consumer_policy{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
